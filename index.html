@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Jaya Prakash | Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="images/jp_icon.jpeg" rel="icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body onload="projects()">
+  <div id="header-nav">
+    <div class="container">
+  <!-- H1 for SEO -->
+    <div class="brand">
+      <a href="/"><h1>Jaya Prakash</h1></a>
+    </div>
+    <!-- Small screen menu button -->
+		<a href="#menu" class="menu-link">
+      <span class="bar1"></span>
+      <span class="bar2"></span>
+      <span class="bar3"></span>
+     </a>
+    <!-- /Small screen menu button -->
+    
+    <!-- Menu Items -->
+    <nav id="menu" role="navigation">
+			<ul>
+				<li><a href="#aboutme">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#Projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+      </div>
+	</div>
+  <section class="me">
+    <div class="me1">
+      <img src="images/my_photo.png" alt="Photo of me">
+    </div>
+    <div class="me2">
+      <p1>Hey!</p1>
+      <br>
+      <p1>I'm  <span style="color: rgb(23, 175, 186);">Jaya Prakash Voolla</span> </p1>
+      <p2>Hey! I'm</p2>
+      <br>
+      <p2><span style="color: rgb(23, 175, 186);">Jaya Prakash Voolla</span> </p2>
+    </div>
+  </section>
+  <section id="aboutme">
+    <div class="box">
+      <h1>About Me</h1>
+      <p>I am a passionate student, pursuing Bachelors of Technology specializing in Mechanical Engineering at 
+        Indian Institute of technology Bhubaneswar, with a strong inclination toward innovative problem-solving 
+        and technology.  As an active member of the Robotics and Intelligent Systems Club and a leader in Web 
+        Development for Wissenaire fest, I have honed both my technical and teamwork skills. My role as a Student 
+        Internship Coordinator further showcases my ability to build relationships and manage responsibilities effectively. 
+        Beyond academics, I’m passionate about basketball and enjoy participating in extracurricular 
+        activities like media coordination and event management. I strive to create impactful solutions
+        while continuously learning and growing.
+      </p>
+      <h1 id="skills">Skills</h1>
+      <p>I am interested in learning Machine learning. As
+        of now I have an idea on HTML, CSS and Javascript. Apart from these I am
+        familiar with C language and Python. In my learning I would like to know
+        more about the applications of machine learning to the robotics.
+      </p>
+    </div>
+  </section>
+  <section id="education">
+    <h1>Education</h1>
+    <div class="edu-cards">
+      <div class="edu">
+        <h2>Engineering</h2>
+        <img src="images/IIT_BBS_logo.png">
+        <a href="https://www.iitbbs.ac.in/">Indian Institute of Technology <br> Bhubaneswar</a>
+      </div>
+      <div class="edu">
+        <h2>Intermediate</h2>
+        <img src="images/sri_chaitanya_logo.png">
+        <a href="https://srichaitanya.net/">Sri Chaitanya Junior College</a>
+      </div>
+      <div class="edu">
+        <h2>Schooling</h2>
+        <img src="images/a_image.png">
+        <a href="https://jayaprakash121.github.io/web.github.io/schooling.html" target="_blank">Abhyudaya High School</a>
+      </div>
+    </div>
+  </section>
+  <!--
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="card1">
+      <div class="card-cont">
+        <div class="content">
+          <h2>Campus Ambassador</h2>
+          <p>This is the campus ambassador website for the Wissenaire fest, IIT Bhubaneswar. It was made by using HTML and CSS.</p>
+          <br>
+          <a href="https://jayaprakash121.github.io/ca.wissenaire.org/" target="_blank"><button style="margin-top: 10px;">Open Link</button></a>
+        </div>
+      </div>
+      <div class="card-cont">
+        <div class="image">
+          <img src="images/ca_wiss.png" style="filter: drop-shadow(-5px 5px 5px #5d616b);" alt="campus_ambassador">
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="card-cont">
+        <div class="image">
+          <img src="images/hand_cricket.jpg" alt="Hand Cricket">
+        </div>
+      </div>
+      <div class="card-cont">
+        <div class="content">
+          <h2>Hand Cricket</h2>
+          <p>It is about the hand cricket game which we had played in our childhood time, and this was made by using HTML, CSS and Javascript.</p>
+          <br>
+          <a href="https://jayaprakash121.github.io/HandCricket/" target="_blank"><button style="margin-top: 10px;">Open Link</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="card1">
+      <div class="card-cont">
+        <div class="content">
+          <h2>Web Page of Four-Bar Mechanism</h2>
+          <p>The Four-Bar Mechanism is a fundamental mechanical linkage widely used in 
+          engineering applications to convert rotary motion into translational motion or 
+          vice versa. It was made by using Python and Stearmlit library for web page.
+          </p>
+          <br>
+          <a href="https://github.com/Jayaprakash121/4R_mechanism" target="_blank"><button style="margin-top: 10px;">Open Link</button></a>
+        </div>
+      </div>
+      <div class="card-cont">
+        <div class="image">
+          <img src="images/4r_mechanism.png" alt="4R Mechanism">
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+  <section id="Projects">
+    <h1 style="text-align: center;">Projects</h1>
+    <div class="switch">
+      <button onclick="change1()" id="button1">AI/ML</button>
+      <button onclick="change2()" id="button2">Robotics</button>
+      <button onclick="change3()" id="button3">Web</button>
+      
+    </div>
+    <div id="robotics">
+      <h2>Robotics</h2>
+      <div id="carouselExampleAutoplaying-1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/game.webp" style="filter: drop-shadow(-5px 5px 5px #5d616b);" alt="game poster">
+                <h2>Escape from Ember Heights</h2>
+                <p>A peaceful morning turns chaotic as a fire breaks out in an apartment building. 
+                  Navigate through challenges and help the residents escape to safety before it's too late. It was made by 
+                  using Arduino, TFT Displayand Joystick.</p>
+                <a href="https://github.com/Jayaprakash121/GC_24_ARDUGEM_99.2">link to open</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/4r_mechanism.png" alt="Hand Cricket">
+                <h2>Web Page of Four-Bar Mechanism</h2>
+                <p>The Four-Bar Mechanism is a fundamental mechanical linkage widely used in 
+                  engineering applications to convert rotary motion into translational motion or vice versa. 
+                  It was made by using Python and Stearmlit library for web page.
+                </p>
+                <a href="https://github.com/Jayaprakash121/4R_mechanism" target="_blank">link to open</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying-1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying-1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="ml">
+      <h2>AI/ML</h2>
+      <div id="carouselExampleAutoplaying-2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/log.png" style="width:80%;" alt="Thumbnail Generator">
+                <h2>AI Thumbnail Generator</h2>
+                <p>The AI Thumbnail Generator is a web-based tool that automatically creates visually appealing thumbnails from 
+                  a given title and concept note using generative AI. It produces multiple design variations, each with unique styles, 
+                  and includes features like thumbnail history, download options, and auto-generated title logos. Built with Flask and 
+                  Stability AI, the app streamlines the content creation process with an intuitive, mobile-friendly interface.</p>
+                <a href="https://github.com/Jayaprakash121/ai_thumbnail_generator" target="_blank">link to open</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/t&c_risk_analyzer.webp" alt="Risk Analyzer">
+                <h2>Saas T&C Risk Analyzer</h2>
+                <p>The SaaS T&C Risk Analyzer is an AI-powered tool designed to help businesses identify potential risks 
+                  in SaaS agreements quickly. It scans vendor terms and conditions to flag critical issues such as data 
+                  privacy concerns, hidden fees, termination clauses, and compliance risks, enabling informed decision-making 
+                  for safer and more transparent software purchases.</p>
+                <a href="https://github.com/Jayaprakash121/T_and_C_risk_analyzer" target="_blank">link to open</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/jigsaw.jpeg" style="width:80%;" alt="Jigsaw Puzzle Solver">
+                <h2>Jigsaw Puzzle Solver</h2>
+                <p>A jigsaw puzzle solver is a system or algorithm designed to efficiently assemble pieces of a jigsaw 
+                  puzzle by analyzing their shapes, colors, and patterns. It uses techniques like image recognition, and 
+                  piece matching to recreate the original image with precision.</p>
+                <a href="https://github.com/Jayaprakash121/jigsaw_puzzle_solver" target="_blank">link to open</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/smart_attendance_system.webp" style="width:80%;" alt="Smart Attendance System">
+                <h2>Smart Attendance System</h2>
+                <p>A smart attendance system is an automated solution that uses advanced technologies like facial recognition 
+                  to track and manage attendance efficiently. It eliminates manual processes, reduces errors, and provides 
+                  real-time data for better monitoring and reporting, enhancing productivity and accountability in workplaces, schools, and events.</p>
+                <a href="https://github.com/Jayaprakash121/smart_attendace_system" target="_blank">link to open</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying-2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying-2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="web">
+      <h2>Web Development</h2>
+      <div id="carouselExampleAutoplaying-3" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/ca_wiss.png" style="filter: drop-shadow(-5px 5px 5px #5d616b);" alt="campus_ambassador">
+                <h2>Campus Ambassador</h2>
+                <p>This is the campus ambassador website for the Wissenaire fest, IIT Bhubaneswar. It was made by using HTML and CSS.</p>
+                <a href="https://jayaprakash121.github.io/ca.wissenaire.org/">link to open</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="crd">
+                <img src="images/hand_cricket.jpg" alt="Hand Cricket">
+                <h2>Hand Cricket</h2>
+                <p>It is about the hand cricket game which we had played in our childhood time, and this was made by using HTML, CSS and Javascript.</p>
+                <a href="https://jayaprakash121.github.io/HandCricket/">link to open</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying-3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying-3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <div class="contacts">
+      <div class="cont">
+        <p1>Call</p1>
+        <a href="tel:+919908707252"><i style="font-size:20px" class="fa">&#xf095;</i> : +91 9908707252</a>
+      </div>
+      <div class="cont">
+        <p1>Email</p1>
+        <a href="mailto:jayaprakashvoolla121@gmail.com">&#9993 : jayaprakashvoolla121@gmail.com</a>
+      </div>
+    </div>
+    <h2>Follow me on</h2>
+    <div class="sc-icons">
+      <a class="icon icon--facebook" href="https://www.facebook.com/profile.php?id=100088211402628&mibextid=LQQJ4d" target="_blank">
+        <i class="ri-facebook-line"></i>
+      </a>
+      </a>
+      <a class="icon icon--instagram" href="https://www.instagram.com/21_jayaprakash_14/" target="_blank">
+        <i class="ri-instagram-line"></i>
+      </a>
+      <a class="icon icon--linkedin" href="http://linkedin.com/in/jaya-prakash-voolla-356064287"
+        target="_blank">
+        <i class="ri-linkedin-line"></i>
+      </a>
+    </div>
+  </section>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
